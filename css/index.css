@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgb(8, 2, 13);
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,4 +56,93 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+header {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-wrapper {
+  display: flex;
+  margin: 0 auto;
+}
+
+.header-logo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-right: 90px;
+  gap: 16px;
+}
+.header-logo img {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+}
+.header-logo a {
+  color: rgb(202, 202, 202);
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16.5px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header-nav {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.header-nav-item {
+  color: rgb(202, 202, 202);
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16.5px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header-input-wrapper {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.header-input-wrapper .header-input {
+  height: 25px;
+  width: 250px;
+  border: none;
+  border-radius: 50px;
+  background: rgb(60, 59, 61);
+}
+.header-input-wrapper .header-input::-moz-placeholder {
+  color: rgb(117, 117, 117);
+  font-family: Arial;
+  font-size: 13.3px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.header-input-wrapper .header-input::placeholder {
+  color: rgb(117, 117, 117);
+  font-family: Arial;
+  font-size: 13.3px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
 }/*# sourceMappingURL=index.css.map */

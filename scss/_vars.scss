@@ -195,3 +195,24 @@ $red:rgb(149, 57, 12);
   letter-spacing: 0%;
   text-transform: uppercase;
 }
+
+@mixin nav-text {
+  color: rgb(202, 202, 202);
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16.5px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: $black;
+}
