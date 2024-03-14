@@ -1,0 +1,197 @@
+$black:rgb(8, 2, 13);
+$light-grey:rgb(224, 224, 224);
+$grey:rgb(202, 202, 202);
+$dark-grey:rgb(60, 59, 61);
+$green:rgb(52, 193, 118);
+$orange:rgb(248, 146, 2);
+$purple:rgb(83, 40, 161);
+$red:rgb(149, 57, 12);
+
+@mixin h1 {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+@mixin h2 {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+@mixin h3 {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+@mixin h3-low {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0%;
+}
+
+@mixin h3-low-bold {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0%;
+}
+
+@mixin h4 {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+@mixin h4-low-bold {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+}
+
+@mixin h1-mobile {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+@mixin h2-mobile {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+@mixin h3-mobile {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+@mixin h4-mobile {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+@mixin text-7 {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+@mixin text-6 {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+@mixin text-5 {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+@mixin text-4 {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+@mixin text-3 {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+@mixin text-2 {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+@mixin text-1 {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+@mixin text-small {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+@mixin pop-track {
+  color: rgb(60, 59, 61);
+  font-family: Roboto;
+  font-size: 12.8px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
