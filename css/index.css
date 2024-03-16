@@ -113,6 +113,9 @@ header {
   text-transform: uppercase;
   text-decoration: none;
 }
+.header-nav-item:hover {
+  color: white;
+}
 
 .header-input-wrapper {
   margin-left: auto;
@@ -145,4 +148,109 @@ header {
   letter-spacing: 0%;
   text-align: left;
   text-transform: uppercase;
+}
+
+.page-description {
+  background-image: url(/images/banner.png);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.poge-description_title-wrapper {
+  text-align: center;
+}
+.poge-description_title-wrapper h1 {
+  color: white;
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+.poge-description_title-wrapper h2 {
+  color: white;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-bottom: 31px;
+}
+.poge-description_title-wrapper p {
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin-bottom: 17px;
+}
+
+.page-description_input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+}
+.page-description_input-wrapper input {
+  min-width: 270px;
+  min-height: 50px;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+  box-sizing: border-box;
+  border: 2px solid rgb(202, 202, 202);
+  border-radius: 3px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.page-description_input-wrapper input::-moz-placeholder {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.page-description_input-wrapper input::placeholder {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.page-description_button .btn {
+  margin: 0 auto;
+  display: block;
+  width: 505px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(52, 193, 118);
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 13.3px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+.page-description_button .btn:hover {
+  transform: scale(1.1);
+  background-color: white;
+  color: black;
 }/*# sourceMappingURL=index.css.map */
