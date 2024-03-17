@@ -211,6 +211,25 @@ $red:rgb(149, 57, 12);
 .container {
   width: 1200px;
   margin: 0 auto;
+
+  @media (max-width:1200px) {
+    width: 992px;
+  }
+
+  @media (max-width:992px) {
+    width: 728px;
+    padding: 0 20px;
+  }
+
+  @media (max-width:768px) {
+    width: 536px;
+    padding: 0 20px;
+  }
+
+  @media (max-width:576px) {
+    width: 400px;
+    padding: 0 20px;
+  }
 }
 
 body {
