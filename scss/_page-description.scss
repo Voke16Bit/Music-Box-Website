@@ -7,11 +7,19 @@
   text-align: center;
   & h1 {
     @include h1;
+
+    @media (max-width:576px) {
+      @include h1-mobile;
+    }
   }
 
   & h2 {
     @include h2;
     margin-bottom: 31px;
+
+    @media (max-width:576px) {
+      @include h2-mobile;
+    }
 
   }
 
@@ -25,6 +33,12 @@
   align-items: center;
   gap: 24px;
   justify-content: center;
+  
+  @media (max-width:768px) {
+    flex-direction: column;
+    gap: unset;
+  }
+
   & input {
     min-width: 270px;
     min-height: 50px;
@@ -76,6 +90,10 @@
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.2s;
+
+    @media (max-width:768px) {
+      width: 210px;
+    }
 
     &:hover {
       transform: scale(1.1);

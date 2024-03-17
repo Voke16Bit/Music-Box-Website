@@ -22,7 +22,7 @@
 }
 @media (max-width: 576px) {
   .container {
-    width: 400px;
+    width: unset;
     padding: 0 20px;
   }
 }
@@ -224,6 +224,17 @@ header {
   letter-spacing: 0%;
   text-transform: uppercase;
 }
+@media (max-width: 576px) {
+  .poge-description_title-wrapper h1 {
+    color: white;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+  }
+}
 .poge-description_title-wrapper h2 {
   color: white;
   font-family: Roboto;
@@ -233,6 +244,17 @@ header {
   letter-spacing: 0%;
   text-transform: uppercase;
   margin-bottom: 31px;
+}
+@media (max-width: 576px) {
+  .poge-description_title-wrapper h2 {
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+  }
 }
 .poge-description_title-wrapper p {
   color: white;
@@ -249,6 +271,12 @@ header {
   align-items: center;
   gap: 24px;
   justify-content: center;
+}
+@media (max-width: 768px) {
+  .page-description_input-wrapper {
+    flex-direction: column;
+    gap: unset;
+  }
 }
 .page-description_input-wrapper input {
   min-width: 270px;
@@ -304,6 +332,11 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.2s;
+}
+@media (max-width: 768px) {
+  .page-description_button .btn {
+    width: 210px;
+  }
 }
 .page-description_button .btn:hover {
   transform: scale(1.1);

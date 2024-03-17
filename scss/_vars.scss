@@ -227,7 +227,7 @@ $red:rgb(149, 57, 12);
   }
 
   @media (max-width:576px) {
-    width: 400px;
+    width:unset;
     padding: 0 20px;
   }
 }
