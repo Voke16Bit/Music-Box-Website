@@ -169,11 +169,20 @@ header {
   }
 }
 .header-input-wrapper .header-input {
+  padding-left: 10px;
   height: 25px;
   width: 250px;
   border: none;
   border-radius: 50px;
   background: rgb(60, 59, 61);
+  color: white;
+  font-family: Arial;
+  font-size: 13.3px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
 }
 @media (max-width: 992px) {
   .header-input-wrapper .header-input {
@@ -342,4 +351,125 @@ header {
   transform: scale(1.1);
   background-color: white;
   color: black;
+}
+
+.page-pricing {
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
+.pricing-title {
+  color: white;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.pricing-cards_wrapper {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  gap: 48px;
+}
+@media (max-width: 1200px) {
+  .pricing-cards_wrapper {
+    flex-direction: column;
+  }
+}
+
+.pricing-item {
+  max-width: 370px;
+  max-height: 625px;
+  border-radius: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pricing-item h3 {
+  color: white;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-bottom: 200px;
+  margin-top: 24px;
+}
+.pricing-item .btn-pricing {
+  display: inline-block;
+  width: 300px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 13.3px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 64px;
+  transition: 0.2s;
+}
+.pricing-item .btn-pricing:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
+
+.bg-free {
+  background-image: url(/images/subscribe_1.png);
+  background-size: cover;
+}
+
+.bg-standart {
+  background-image: url(/images/subscribe_2.png);
+  background-size: cover;
+}
+
+.bg-premium {
+  background-image: url(/images/subscribe_3.png);
+  background-size: cover;
+}
+
+.pricing-value {
+  color: white;
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin-bottom: 40px;
+}
+.pricing-value span {
+  color: white;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  vertical-align: text-top;
+}
+
+.pricing-footer {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 64px;
 }/*# sourceMappingURL=index.css.map */
