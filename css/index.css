@@ -800,4 +800,83 @@ footer hr {
 
 .orange {
   background-color: rgb(149, 57, 12);
+}
+
+.page-pop-tracks {
+  padding-top: 100px;
+}
+
+.pop-tracks-wrapper h2 {
+  color: white;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.pop-tracks-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px 50px;
+}
+@media (max-width: 576px) {
+  .pop-tracks-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.popular-track {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: 0.2s;
+  padding-right: 10px;
+}
+.popular-track img {
+  width: 55px;
+  height: 55px;
+}
+.popular-track p {
+  color: white;
+  font-family: Roboto;
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin-left: auto;
+}
+.popular-track:hover {
+  background-color: gray;
+}
+
+.track-info {
+  display: flex;
+  flex-direction: row;
+  width: inherit;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.track-title {
+  margin-left: 15px;
+}
+.track-title h4 {
+  color: white;
+  font-family: Roboto;
+  font-size: 12.8px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+.track-title p {
+  color: white;
+  font-family: Roboto;
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
 }/*# sourceMappingURL=index.css.map */
