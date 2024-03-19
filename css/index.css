@@ -734,4 +734,70 @@ footer hr {
   letter-spacing: 0%;
   text-decoration: none;
   color: rgb(224, 224, 224);
+}
+
+.page-description-artist {
+  padding: 200px 0;
+  background-image: url(/images/MortenHarket.png);
+  background-size: cover;
+}
+
+.description-artist_wrapper h1 {
+  color: white;
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.description-artist_wrapper p {
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin-bottom: 45px;
+}
+
+.description-artist-btn-wrapper {
+  display: flex;
+  gap: 24px;
+}
+@media (max-width: 576px) {
+  .description-artist-btn-wrapper {
+    flex-direction: column;
+  }
+}
+
+.description-artist-btn {
+  display: flex;
+  gap: 16px;
+  width: 140px;
+  padding: 20px 30px;
+  background-color: rgb(83, 40, 161);
+  border-radius: 5px;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-family: Roboto;
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  transition: 0.2s;
+}
+.description-artist-btn:hover {
+  transform: scale(1.1);
+}
+.description-artist-btn img {
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+}
+
+.orange {
+  background-color: rgb(149, 57, 12);
 }/*# sourceMappingURL=index.css.map */
