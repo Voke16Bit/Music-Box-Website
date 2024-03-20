@@ -936,4 +936,56 @@ footer hr {
   line-height: 150%;
   letter-spacing: 0%;
   color: rgb(202, 202, 202);
+}
+
+.page-similar {
+  padding: 100px 0;
+}
+
+.similar-title {
+  color: white;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.similar-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+
+.similar-item:hover {
+  cursor: pointer;
+}
+.similar-item img {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.similar-info {
+  text-align: center;
+}
+.similar-info h3 {
+  color: white;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+.similar-info p {
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: rgb(202, 202, 202);
 }/*# sourceMappingURL=index.css.map */
