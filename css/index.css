@@ -850,6 +850,7 @@ footer hr {
 }
 .popular-track:hover {
   background-color: gray;
+  cursor: pointer;
 }
 
 .track-info {
@@ -879,4 +880,60 @@ footer hr {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0%;
+}
+
+.page-discography {
+  padding-top: 100px;
+}
+
+.discography-title {
+  color: white;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.discography-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+
+.discography-item {
+  transition: 0.2s;
+}
+.discography-item:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+.discography-item img {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.discography-info {
+  padding-left: 10px;
+}
+.discography-info h3 {
+  color: white;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+.discography-info p {
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: rgb(202, 202, 202);
 }/*# sourceMappingURL=index.css.map */
